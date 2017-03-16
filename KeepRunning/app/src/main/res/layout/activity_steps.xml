@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/run6"
+    >
+    <FrameLayout
+        android:layout_width="500px"
+        android:layout_height="500px">
+    <com.example.administrator.keeprunning.MyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        />
+        <TextView
+            android:text="0步"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#f86030"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/textViewsteps" />
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/counting_layout1"
+        >
+        <TextView
+            android:id="@+id/calories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="消耗了0千卡路里"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="20sp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@id/counting_layout1"
+        >
+        <TextView
+            android:id="@+id/aim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="今日计划尚未完成"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

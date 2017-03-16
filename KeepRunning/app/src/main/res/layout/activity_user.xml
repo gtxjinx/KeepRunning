@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="身高：170cm"
+        android:background="#FFFFFF"
+        android:id="@+id/button1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="体重：60kg"
+        android:background="#EEE9E9"
+        android:id="@+id/button2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标每天跑步里程：5km"
+        android:background="#FFFFFF"
+        android:id="@+id/button3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="目标每天步行步数：1000步"
+        android:background="#EEE9E9"
+        android:id="@+id/button4"/>
+</LinearLayout>
